@@ -25,23 +25,27 @@ const getUserChoice = (userInput) => {
   }
   
   function determineWinner(userChoice, computerChoice) {
-     userChoice === 'bomb' ? console.log('Da bomb always wins') : 
-    userChoice === computerChoice
-      ? console.log("tie")
-      : userChoice === "rock"
-      ? computerChoice === "paper"
-        ? console.log("computer wins")
-        : console.log("user wins")
-      : userChoice === "paper"
-      ? computerChoice === "scissors"
-        ? console.log("computer wins")
-        : console.log("user wins")
-      : userChoice === "scissors"
-      ? computerChoice === "rock"
-        ? console.log("computer wins")
-        : console.log("user wins")
-      : console.log("not a valid option");
-  }
+//     userChoice === 'bomb' ? console.log('Da bomb always wins') : 
+//     userChoice === computerChoice
+//       ? console.log("tie")
+//       : userChoice === "rock"
+//       ? computerChoice === "paper"
+//         ? console.log("computer wins")
+//         : console.log("user wins")
+//       : userChoice === "paper"
+//       ? computerChoice === "scissors"
+//         ? console.log("computer wins")
+//         : console.log("user wins")
+//       : userChoice === "scissors"
+//       ? computerChoice === "rock"
+//         ? console.log("computer wins")
+//         : console.log("user wins")
+//       : console.log("not a valid option");
+//   }
+
+//   playGame();
+     if (userChoice === 'bomb'){
+      return 'Da bomb always wins'
     }
     if (userChoice === computerChoice) {
       return "Tie game, play again";
