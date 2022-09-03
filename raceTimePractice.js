@@ -16,3 +16,11 @@ if (age < 18){
 } else if (age === 18 && early){
   console.log('getcha ass to da registration for further assitance')
 }
+
+console.log(helloWorld()); // ???
+
+const helloWorld = function () {
+  return 'Hello World!';
+}
+
+helloWorld
