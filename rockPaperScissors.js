@@ -44,6 +44,16 @@ const getUserChoice = (userInput) => {
 //   }
 
 //   playGame();
+
+// function determineWinner(userChoice, computerChoice) {
+    // switch (userChoice) {
+        // case 'bomb':
+        //     return 'Da bomb always wins';
+        // case userChoice === computerChoice:
+        //     return 'tie';
+        
+
+
      if (userChoice === 'bomb'){
       return 'Da bomb always wins'
     }
