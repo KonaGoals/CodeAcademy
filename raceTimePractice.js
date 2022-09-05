@@ -14,7 +14,7 @@ if (age > 18 && early){
 if (age < 18){
   console.log('Under 18 will start at 12:30 pm regardless of registration time')
 } else if (age === 18 && early){
-  console.log('getcha ass to da registration for further assitance')
+  console.log('getcha ass to da registration for further assistance')
 }
 
 console.log(helloWorld()); // ???
